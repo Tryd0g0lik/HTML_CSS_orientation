@@ -49,7 +49,7 @@ appearance: none; + -webkit-, -moz-. Убирать св-фа форм по ум
 ►	Единица измеренияЖ
  - em = размеру шрифта от родительского эл-та. Используется в font, height, width, padding, margin, bexckground;
  - rem =  где  px / font-siceHTML (font, height, width, padding, margin, bexckground);
- - 1vh/vw = 1% jn высоты/ширины окна браузера;
+ - 1vh/vw = 1% от  высоты/ширины окна браузера;
  - 1vmain/vmax = 1% от меньшего значения - ширины или высота. Если orientation: portrait то 1vmin=1vw$
 
 
@@ -69,6 +69,14 @@ appearance: none; + -webkit-, -moz-. Убирать св-фа форм по ум
 
 	- flex-basis: изначчальные размеры элемента в любых единицах;
 	
+	- order: <номер>
+		номер - любое число указывающее каким по порядку должен быть элемент в ленте элементов.
+		Чем меньше номер тем раньше видим в ленте;
+		
+►	calc()
+	-  
+
+		
 ►	HEAD 
 <head>
 	<meta name="viewport" content = "width = devicew-width, initial-scale = 1.0"> - регулируем масштабирование на устройствах;
